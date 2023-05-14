@@ -1,0 +1,55 @@
+body,
+html{
+	height: 100%;
+	width: 100%;
+	font-family: 'caveat', cursive;
+  	background: url(https://images.pexels.com/photos/6985265/pexels-photo-6985265.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-6985265.jpg&fm=jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #BE80BE;
+	background-color: blue;
+	border: 3px solid black;
+	border-radius: 300px;
+
+}
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 120px;
+    opacity: 1;
+    border-color: #A203A2;  
+    border-width: 3px;
+}
+
+
+.buffer{
+	height: 5rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #A203A2;
+	border-color: #A203A2;
+}
+
+.btn-primary:hover{
+	background-color: #6F006F;
+	border-color: #6F006F;
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
